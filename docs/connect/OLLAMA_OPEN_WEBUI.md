@@ -10,7 +10,7 @@ curl http://127.0.0.1:11434/api/tags
 docker ps --filter name=open-webui
 ```
 
-At least one Ollama model should appear. If not, run `ollama pull llama3.2:3b` while online.
+At least one Ollama model should appear. If not, run `ollama pull qwen3:8b` while online.
 
 ## 2. Check the connection in Open WebUI
 
