@@ -5,7 +5,7 @@ This uses Ollama for a local model inside VS Code. First complete [Ollama setup]
 ## 1. Download a model and confirm its tag
 
 ```bash
-ollama pull qwen3:3b
+ollama pull qwen3:8b
 ollama list
 ```
 
