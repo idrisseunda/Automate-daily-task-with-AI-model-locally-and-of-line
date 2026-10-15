@@ -40,12 +40,12 @@ If your installation does not use systemd, start the server in its own terminal 
 
 ## Download and run the example model
 
-The workshop uses `llama3.2:3b` as a modest first model. The actual speed and whether it fits depend on your computer.
+The workshop uses `qwen3:8b` as a modest first model. The actual speed and whether it fits depend on your computer.
 
 ```bash
-ollama pull llama3.2:3b
+ollama pull qwen3:8b
 ollama list
-ollama run llama3.2:3b
+ollama run qwen3:8b
 ```
 
 At the `>>>` prompt, ask a question such as:
