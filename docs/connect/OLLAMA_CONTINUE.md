@@ -5,7 +5,7 @@ This uses Ollama for a local model inside VS Code. First complete [Ollama setup]
 ## 1. Download a model and confirm its tag
 
 ```bash
-ollama pull llama3.2:3b
+ollama pull qwen3:3b
 ollama list
 ```
 
@@ -25,7 +25,7 @@ schema: v1
 models:
   - name: Llama 3.2 3B (local)
     provider: ollama
-    model: llama3.2:3b
+    model: qwen3:8b
     apiBase: http://127.0.0.1:11434
     roles:
       - chat
