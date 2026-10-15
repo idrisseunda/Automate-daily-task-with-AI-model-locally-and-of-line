@@ -5,7 +5,7 @@ This configures OpenClaw's agent to use a model served by Ollama on the same com
 ## 1. Make a local model available
 
 ```bash
-ollama pull llama3.2:3b
+ollama pull qwen3:8b
 ollama list
 ```
 
